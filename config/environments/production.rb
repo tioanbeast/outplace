@@ -57,7 +57,7 @@ PandaExampleRails::Application.configure do
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)
   config.i18n.fallbacks = true
-
+  ENV['PANDASTREAM_URL'] = 'https://4f1c770f2a4d7f256ef8:622a3229aac32e76a683@api.pandastream.com/f819df0ed332176511a3e5d5beb13da3'
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
