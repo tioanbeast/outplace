@@ -1,0 +1,11 @@
+
+<%=Video.find_by_title('7').title %>
+<div class="page-header">
+<video id="my_video_1" class="video-js vjs-default-skin" controls
+ preload="auto" width="854" height="480" poster="<%= Video.find_by_title('7').panda_video.encodings['h264'].screenshots.first %>"
+ data-setup="{}">
+ <source src="<%= Video.find_by_title('7').panda_video.encodings['h264'].url %>" type='video/mp4'>
+</video>
+
+<br>
+</div>
