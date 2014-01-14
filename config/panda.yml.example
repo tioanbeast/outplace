@@ -1,0 +1,16 @@
+production:
+  api_host: api.pandastream.com
+  access_key: 3123dcabaa5eae6d635b
+  secret_key: 8d906b24f509846632c3
+  cloud_id: 42d3d70c84960652c335e09f689c11b5
+  
+development:
+  access_key: 3123dcabaa5eae6d635b
+  secret_key: 8d906b24f509846632c3
+  cloud_id: 42d3d70c84960652c335e09f689c11b5
+
+test:           
+  api_host: api.pandastream.com
+  access_key: 3123dcabaa5eae6d635b
+  secret_key: 8d906b24f509846632c3
+  cloud_id: 42d3d70c84960652c335e09f689c11b5
