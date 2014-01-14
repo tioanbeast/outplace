@@ -34,4 +34,5 @@ PandaExampleRails::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  ENV['PANDASTREAM_URL'] = 'https://4f1c770f2a4d7f256ef8:622a3229aac32e76a683@api.pandastream.com/f819df0ed332176511a3e5d5beb13da3'
 end
